@@ -16,7 +16,7 @@ async def main():
         driver = await uc.start(
             headless = False,
             user_data_dir=r'C:\Users\Administrator\Desktop\Discord-Name-Bot\Users\1',
-            browser_executable_path=r'C:\Users\Administrator\Desktop\Discord-Name-Bot\Chrome SxS\Application\chrome.exe',
+            browser_executable_path=r'C:\Users\Administrator\Desktop\Discord-Name-Bot\Chrome\chrome.exe',
         )
         tab = await driver.get(DiscordChannelUrl)
 

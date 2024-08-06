@@ -3,6 +3,9 @@
 ## Overview
 The **Discord Name Bot** is a Python script designed to automate changing your Discord username periodically. It randomly selects from a predefined list of humorous names, allowing you to showcase your wit or entertain your friends. The script utilizes the `nodriver` library to control a browser instance, ensuring that the name changes happen seamlessly.
 
+![1](https://github.com/user-attachments/assets/34c7b501-e08b-4161-a7bc-3db42720df84)
+
+
 ## Features
 - Randomly selects a name from a predefined list.
 - Periodically changes username at a customizable interval.

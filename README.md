@@ -18,7 +18,7 @@ https://github.com/ultrafunkamsterdam/nodriver
 ## Prerequisites
 Before using the Discord Name Bot, make sure you have the following installed:
 - Python 3.x
-- `nodriver` library
+- nodriver library
 
 ## Setup Instructions
 
@@ -46,7 +46,7 @@ Before using the Discord Name Bot, make sure you have the following installed:
 5. **Run the Script:**
    To start the bot, simply run:
    ```bash
-   python your_script.py
+   python DiscordNameChanger.py
    ```
 
 ## Usage

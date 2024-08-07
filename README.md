@@ -43,8 +43,18 @@ Before using the Discord Name Bot, make sure you have the following installed:
    - Adjust the `IntervalTimer` to set how often (in seconds) you want the username to change.
    - Set `LoggedIn` to `1` once you have successfully logged in to Discord with your cookies saved.
 
+```python
+names = [
+    "Funny Name 1",
+    "Funny Name 2",
+    "Connor (Funny Name 3)"
+]
+DiscordChannelUrl = "https://discord.com/channels/1113511191788491111/1113570111188411151" # URL to Discord Channel
+IntervalTimer = 60 # Seconds Between Name Changes
+LoggedIn = 0 # Set To 1 After You Save Your Discord Cookies/etc to the "Users" folder
+```
+
 5. **Run the Script:**
-   To start the bot, simply run:
    ```bash
    python DiscordNameChanger.py
    ```

@@ -11,7 +11,7 @@ names = [
 DiscordChannelUrl = "https://discord.com/channels/1113511191788491111/1113570111188411151" # URL to Discord Channel
 IntervalTimer = 60 # Seconds Between Name Changes
 LoggedIn = 0 # Set To 1 After You Save Your Discord Cookies/etc to the "Users" folder
-
+ 
 async def main():
     driver = await uc.start(
         headless = False,

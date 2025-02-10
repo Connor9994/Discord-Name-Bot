@@ -24,7 +24,7 @@ async def main():
             shuffle(names)
             for name in names:
                 try:
-                    textBox = await tab.select(".inputDefault_f8bc55",timeout=3)
+                    textBox = await tab.select(".inputWrapper__0f084",timeout=3)
                     while textBox.attrs['value'] == name:
                         continue
                     await tab.sleep(t=1)
@@ -36,9 +36,9 @@ async def main():
                 except:
                     # No TextBox Found, Try to Re-open the Server-Profile Settings
                     try:
-                        topLeft = await tab.select(".headerContent_fd6364.primaryInfo_fd6364",timeout=3)
+                        topLeft = await tab.select(".headerContent_f37cb1.primaryInfo_f37cb1",timeout=3)
                         await topLeft.click()
-                        topTab = await tab.select(".labelWrapper_c61a51",timeout=3)
+                        topTab = await tab.select(".labelWrapper_abe771",timeout=3)
                         await topTab.click()
                         await tab.sleep(t=3)
                     except Exception as e:

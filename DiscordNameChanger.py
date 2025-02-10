@@ -24,7 +24,7 @@ async def main():
             shuffle(names)
             for name in names:
                 try:
-                    textBox = await tab.select(".inputWrapper__0f084",timeout=3)
+                    textBox = await tab.select(".inputDefault__0f084.input__0f084",timeout=3)
                     while textBox.attrs['value'] == name:
                         continue
                     await tab.sleep(t=1)
